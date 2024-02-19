@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap'); /* Importa la fuente Poppins */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Fuente Poppins */
+}
+
+.header {
+    position: fixed; /* Fija la barra de navegación en la parte superior de la página */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ancho al 100% */
+    padding: 20px 100px;
+    display: flex; /* Alinea los elementos en línea */
+    z-index: 100; /* Coloca la barra de navegación por encima de otros elementos */
+    justify-content: space-between; /* Espacio entre los elementos */
+    background-color: #007935; /* Color de fondo verde */
+    align-items: center; /* Alinea los elementos verticalmente */
+}
+
+.logo {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav a {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+nav a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #ffffff;
+}
+
+nav a:hover::before {
+    width: 100%;
+    transition: 0.5s;
+}
