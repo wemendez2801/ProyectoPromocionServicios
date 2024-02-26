@@ -1,0 +1,38 @@
+.bodyfooter {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: #787878;
+    color: white;
+    flex-wrap: wrap;
+    margin-top: auto;
+    display: flex;
+    text-align: center;
+}
+
+.footer-col{
+    width: 25%;
+}
+
+.footer-col h4 {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.footer-col ul {
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    display: block;
+}
+
+.footer-col li {
+    display: inline-block;
+    text-align: center;
+    margin: 0 8px 8px 0;
+}
