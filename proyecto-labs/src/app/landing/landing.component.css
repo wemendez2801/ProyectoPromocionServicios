@@ -1,10 +1,11 @@
-/* main {
-    background-image: url(fondo_pagina.png);
+.bodyimage {
+    background-image: url("fondo3.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-} */
+    height: 300px;
+}
 
 .bienvenida {
     font-family: 'Poppins', sans-serif; /* Fuente Poppins */
@@ -13,6 +14,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 350px 350px 50px 350px;
+    padding: 5px 0 5px 0;
+    border-radius: 10px;
 }
 
 .descripcion {
@@ -20,6 +24,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 0 250px 0 250px;
+    padding: 15px 0 15px 0;
 }
 
 .descripcion h1 {
@@ -37,17 +43,34 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 50px 350px 0 350px;
+    border-radius: 10px;
+    padding: 5px 0 5px 0;
 }
 
 .disponibles {
     font-family: 'Poppins', sans-serif; /* Fuente Poppins */
     font-weight: bold;
+    font-size: 30px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
 }
 
 .disponibles ul {
     list-style: none;
 }
 
+.disponibles li {
+    margin: 20px;
+    display: inline-block;
+    background-color: #37B4E3;
+    padding: 30px 30px;
+    border-radius: 10px;
+
+}
+
 .disponibles a {
     text-decoration: none;
+    color: white;
 }
