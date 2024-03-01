@@ -1,25 +1,30 @@
 <app-navbar/>
-<br/><br/><br/><br/>
+
 <div class="cuadro">
     <form>
+        <h1>CONTACTENOS</h1>
         <div class="input-group">
-            <input type="text" id="name" placeholder="Ingrese su nombre" required>
             <label for="nombre">Nombre</label>
+            <input type="text" id="name" placeholder="Ingrese su nombre" required>
         </div>
         <div class="input-group">
-            <input type="text" id="organizacion" placeholder="Ingrese el nombre de su organizacion" required>
             <label for="organizacion">Nombre de la organizacion</label>
+            <input type="text" id="organizacion" placeholder="Ingrese el nombre de su organizacion" required>
         </div>
         <div class="input-group">
-            <input type="text" id="correo" placeholder="Ingrese su correo" required>
             <label for="correo">Correo</label>
+            <input type="email" id="correo" placeholder="Ingrese su correo" required>
         </div>
         <div class="input-group">
-            <input type="text" id="telf" placeholder="Ingrese su número de teléfono" required>
             <label for="telf">Teléfono</label>
+            <input type="text" id="telf" placeholder="Ingrese su número de teléfono" required>
+        </div>
+        <div class="input-group">
+            <label for="mensaje">¿Cómo podemos ayudarle?</label>
+            <textarea id="mensaje" rows="8"></textarea>
         </div>
         <button type="submit">Enviar</button>
     </form>
 </div>
-<br/><br/>
+
 <app-footer/>
