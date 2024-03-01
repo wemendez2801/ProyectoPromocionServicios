@@ -1,0 +1,85 @@
+.titulo {
+    font-family: 'Poppins', sans-serif; /* Fuente Poppins */
+    color: white;
+    background-color: #007935; /* Color de fondo verde */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 150px 350px 50px 350px;
+    padding: 5px 0 5px 0;
+    border-radius: 10px;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.acordeon {
+    padding: 30px;
+}
+
+.acordeon ul {
+    list-style: none;
+    text-align: center;
+    color: white;
+}
+
+.acordeon li {
+    background-color: #37B4E3;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    display: list-item;
+}
+
+.acordeon li label {
+    font-family: 'Poppins', sans-serif; /* Fuente Poppins */
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.acordeon .contenido {
+    font-family: 'Open Sans', sans-serif; /* Fuente Open Sans */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+    text-align: center;
+}
+
+.acordeon .contenido li {
+    list-style: disc;
+    text-align: justify;
+    padding: 2px;
+}
+
+.acordeon input[type="radio"]:checked + label + .contenido {
+    max-height: 800px;
+    padding: 10px 10px 20px;
+}
+
+label::before {
+    content: "+";
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.descripcion {
+    background-color: #F5F5F5;
+    margin: 30px;
+    padding: 15px 0 30px 0;
+    text-align: center;
+}
+
+.descripcion h1 {
+    font-family: 'Poppins', sans-serif; /* Fuente Poppins */
+}
+
+.descripcion p {
+    font-family: 'Open Sans', sans-serif; /* Fuente Open Sans */
+}
