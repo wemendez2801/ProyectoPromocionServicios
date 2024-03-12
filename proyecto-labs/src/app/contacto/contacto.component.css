@@ -3,7 +3,7 @@
     margin: 150px 350px 120px 350px;;
     padding: 100px;
     width: 50%;
-    height: 100vh;
+    height: 120vh;
     background-color: #787878;
     display: flex;
     justify-content: center;
@@ -58,4 +58,8 @@ button {
     border-radius: 4px;
     width: 100%;
     cursor: pointer;
+}
+
+textarea{
+    font-family: 'Open Sans', sans-serif;
 }

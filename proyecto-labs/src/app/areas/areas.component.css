@@ -53,7 +53,7 @@
 }
 
 .acordeon input[type="radio"]:checked + label + .contenido {
-    max-height: 400px;
+    max-height: 800px;
     padding: 10px 10px 20px;
 }
 
