@@ -1,27 +1,28 @@
 <app-navbar/>
 
 <div class="cuadro">
-    <form>
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="984ce8bd-7b14-4e94-94cb-6f453037b329">
         <h1>CONTÁCTENOS</h1>
         <div class="input-group">
             <label for="nombre">Nombre</label>
-            <input type="text" id="name" placeholder="Ingrese su nombre" required>
+            <input type="text" name="Nombre" id="name" placeholder="Ingrese su nombre" required>
         </div>
         <div class="input-group">
-            <label for="organizacion">Nombre de la organizacion</label>
-            <input type="text" id="organizacion" placeholder="Ingrese el nombre de su organizacion" required>
+            <label for="organizacion">Nombre de la organización</label>
+            <input type="text" name="Organizacion" id="organizacion" placeholder="Ingrese el nombre de su organizacion" required>
         </div>
         <div class="input-group">
             <label for="correo">Correo</label>
-            <input type="email" id="correo" placeholder="Ingrese su correo. Ej: correo@gmail.com" required>
+            <input type="email" name="Correo" id="correo" placeholder="Ingrese su correo. Ej: correo@gmail.com" required>
         </div>
         <div class="input-group">
             <label for="telf">Teléfono</label>
-            <input type="tel" id="telf" placeholder="Ingrese su número de teléfono. Ej: 0412-1234567" pattern="[0-9]{4}-[0-9]{7}" required>
+            <input type="tel" name="Telefono" id="telf" placeholder="Ingrese su número de teléfono. Ej: 0412-1234567" pattern="[0-9]{4}-[0-9]{7}" required>
         </div>
         <div class="input-group">
             <label for="mensaje">¿Cómo podemos ayudarle?</label>
-            <textarea id="mensaje" rows="8"></textarea>
+            <textarea name="Mensaje" id="mensaje" rows="8"></textarea>
         </div>
         <button type="submit">Enviar</button>
     </form>
