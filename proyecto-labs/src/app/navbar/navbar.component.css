@@ -11,7 +11,8 @@
     display: flex; /* Alinea los elementos en línea */
     z-index: 100; /* Coloca la barra de navegación por encima de otros elementos */
     justify-content: space-between; /* Espacio entre los elementos */
-    background-color: #007935; /* Color de fondo verde */
+  /*  background-color: #007935; */ /* Color de fondo verde */
+    background-color: #787878;
     align-items: center; /* Alinea los elementos verticalmente */
 }
 
@@ -36,7 +37,8 @@ nav a::before {
     left: 0;
     width: 0;
     height: 2px;
-    background: #ffffff;
+    /* background: #ffffff; */
+    background: yellow;
 }
 
 nav a:hover::before {
