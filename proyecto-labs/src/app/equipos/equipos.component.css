@@ -68,18 +68,3 @@ label::before {
 input[type="radio"] {
     display: none;
 }
-
-.descripcion {
-    background-color: #F5F5F5;
-    margin: 30px;
-    padding: 15px 0 30px 0;
-    text-align: center;
-}
-
-.descripcion h1 {
-    font-family: 'Poppins', sans-serif; /* Fuente Poppins */
-}
-
-.descripcion p {
-    font-family: 'Open Sans', sans-serif; /* Fuente Open Sans */
-}

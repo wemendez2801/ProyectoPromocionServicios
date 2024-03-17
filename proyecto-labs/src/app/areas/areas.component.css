@@ -81,3 +81,8 @@ input[type="radio"] {
 .areas p {
     font-family: 'Open Sans', sans-serif; /* Fuente Open Sans */
 }
+
+.areas img {
+    width: 400px;
+    height: 300px;
+}
