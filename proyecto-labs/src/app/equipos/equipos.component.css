@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 150px 350px 50px 350px;
+    margin: 150px 360px 50px 360px;
     padding: 5px 0 5px 0;
     border-radius: 10px;
 }
@@ -67,4 +67,9 @@ label::before {
 
 input[type="radio"] {
     display: none;
+}
+
+.contenido img {
+    height: 500px;
+    width: 700px;
 }
