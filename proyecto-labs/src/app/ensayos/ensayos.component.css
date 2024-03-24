@@ -3,6 +3,7 @@
     color: white;
     background-color: #007935; /* Color de fondo verde */
     justify-content: center;
+    justify-self: center;
     align-items: center;
     text-align: center;
     margin: 150px 350px 50px 350px;

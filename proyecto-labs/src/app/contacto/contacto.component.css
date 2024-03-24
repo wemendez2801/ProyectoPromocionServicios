@@ -8,11 +8,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .cuadro h1 {
     font-family: 'Poppins', sans-serif;
-    color: black;
     font-size: 40px;
     text-align: center;
 }
