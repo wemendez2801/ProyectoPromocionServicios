@@ -55,7 +55,7 @@
 }
 
 .acordeon input[type="radio"]:checked + label + .contenido {
-    max-height: 800px;
+    max-height: 3000px;
     padding: 10px 10px 20px;
 }
 
@@ -71,5 +71,10 @@ input[type="radio"] {
 
 .contenido img {
     height: 500px;
-    width: 700px;
+    width: 400px;
+}
+
+.contenido .ancha {
+    height: 300px;
+    width: 500px;
 }
